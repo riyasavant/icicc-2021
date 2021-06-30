@@ -221,7 +221,7 @@ a:hover {
     content: '';
     background-size: cover;
     background-position: center center;
-    background-image: url(../img/about-right.jpg);
+    background-image: url(../img/try2.png);
 }
 
 .about-section::after {
