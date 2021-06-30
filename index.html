@@ -1,13 +1,481 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Welcome to FICTA 2021 - Home</title>
+    <meta name="description" content="Welcome to FICTA 2021">
     <meta charset="utf-8">
-    <meta name="description" content="Welcome to ICICC 2021">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ICICC 2021 - Home</title>
-    <link rel="stylesheet" href="./index.css"/>
+
+    <!-- Fonts  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,300;1,500&display=swap" rel="stylesheet">
+
+    <!-- Css  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css'>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
 </head>
 <body>
-    <div>test</div>
+    <!-- Marquee Section -->
+    <section class="marquee-section">
+            <div class="d-flex align-items-center">
+                <marquee><span><a class="marquee-text" href="program.html">Check FICTA-2021 Program Schedule</a></span></marquee>
+            </div>
+        </section>
+    <!-- Marquee Section -->
+
+    <!-- Header  -->
+    <header class="top-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-2 col-lg-2 d-flex justify-content-center align-items-center d-xs-none">
+                    <a href="https://www.nitmz.ac.in/" target="_blank"><img src="assets/img/logonitmiz.jpg" alt="logo" class="w-100 rounded-lg"></a>
+                </div>
+                <div class="col-12 col-md-8 col-lg-8 d-flex flex-column justify-content-between">
+                    <a href="index.html" class="d-flex d-sm-none justify-content-center"><img src="assets/img/logonitmiz.jpg" alt="logo" class="w-50 rounded-lg"></a>
+                    <p class="header-tag">9th International Conference on Frontiers of Intelligent Computing: Theory and Applications (FICTA 2021) June 25 - 26, 2021</p>
+                    <a class="header-link" href="https://www.nitmz.ac.in/" target="_blank">National Institute of Technology Mizoram, India</a>
+                    <a class="header-link" href="https://www.nitmz.ac.in/" target="_blank">Jointly organized by the Departments of Computer Science & Engineering and Electronics & Communication Engineering.</a>
+                </div>
+                <div class="col-12 col-md-2 col-lg-2 d-flex justify-content-center align-items-center d-xs-none">
+                    <a href="index.html"><img src="assets/img/IRC_website_logo.jpg" alt="logo" class="w-100  rounded-lg"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header  -->
+    <!-- Navbar  -->
+    <nav class="my-nav navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">FICTA 2021</a>
+
+            <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg width="30" enable-background="new 0 0 198.129 198.129" version="1.1" viewBox="0 0 198.13 198.13" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="#fff">
+                        <rect y="28.026" width="198.13" height="6.567"/>
+                        <rect y="95.23" width="198.13" height="6.571"/>
+                        <rect y="163.52" width="198.13" height="6.578"/>
+                    </g>
+                </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav w-100 d-flex justify-content-between">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <div class="dropdown">
+                        <a class="nav-link dropdown-toggle" href="index.html#" type="button" id="paperDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Call for Papers
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="paperDropdown">
+                            <a class="dropdown-item" href="call-for-papers.html">Main Conference Call for Papers</a>
+                            <a class="dropdown-item" href="call-for-sessions.html">Special Sessions</a>
+                        </div>
+                        </div>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="important-dates.html">Important Dates</a>
+                    </li>
+                    <li class="nav-item ">
+                        <!-- <a class="nav-link" href="committee">Committee</a> -->
+                        <div class="dropdown">
+                        <a class="nav-link dropdown-toggle" href="index.html#" type="button" id="paperDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Committee
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="paperDropdown">
+                            <a class="dropdown-item" href="committee.html">Committee</a>
+                            <a class="dropdown-item" href="call-for-reviewers.html">Call for Reviewers/TPC</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item ">
+                        <div class="dropdown">
+                        <a class="nav-link dropdown-toggle" href="index.html#" type="button" id="authorDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Author Info
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="authorDropdown">
+                            <a class="dropdown-item" href="submission-guidelines.html">Submission Guidelines</a>
+                            <a class="dropdown-item" href="registration.html">Registration</a>
+                            <!-- <a class="dropdown-item" href="accommodation">Accommodation</a> -->
+                        </div>
+                        </div>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="crc.html">CRC Info</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="program.html">Program</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="keynote.html">Keynote Speakers</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="nearby.html">Nearby Attractions</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar  -->
+<!-- Carousel Section  -->
+<section id="heroCarousel" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <picture>
+            <source media="(max-width:650px)" srcset="assets/img/slider/slide-mb1.jpg">
+            <img src="assets/img/slider/slide1.jpg" alt="slider" class="w-100">
+        </picture>
+    </div>
+    <div class="carousel-item">
+        <picture>
+            <source media="(max-width:650px)" srcset="assets/img/slider/slide-mb2.jpg">
+            <img src="assets/img/slider/slide2.jpg" alt="slider" class="w-100">
+        </picture>
+    </div>
+    <div class="carousel-item">
+        <picture>
+            <source media="(max-width:650px)" srcset="assets/img/slider/slide-mb3.jpg">
+            <img src="assets/img/slider/slide3.jpg" alt="slider" class="w-100">
+        </picture>
+    </div>
+    <div class="carousel-item">
+        <picture>
+            <source media="(max-width:650px)" srcset="assets/img/slider/slide-mb4.jpg">
+            <img src="assets/img/slider/slide4.jpg" alt="slider" class="w-100">
+        </picture>
+    </div>
+    <div class="carousel-item">
+        <picture>
+            <source media="(max-width:650px)" srcset="assets/img/slider/slide-mb5.JPG">
+            <img src="assets/img/slider/slide5.JPG" alt="slider" class="w-100">
+        </picture>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="index.html#heroCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="index.html#heroCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</section>
+<!-- Carousel Section  -->
+
+<!-- News Update Section  -->
+<section class="news-update-section pt-50 pb-50 pt-xs-50 pb-xs-50">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6 mb-xs-50">
+                <h2 class="mb-3">Previous Editions of FICTA</h2>
+                <div class="row mb-3 mx-0">
+                    <div class="col-4 p-0">
+                        <div class="date-card h-100 d-flex align-items-center justify-content-center"">
+                            <span class="t-mr-5 ">FICTA</span><span>2020</span>
+                        </div>
+                    </div>
+                    <div class="col-8 pr-0 d-flex align-items-center" style="border-bottom: 2px solid #234262;">
+                        <span>NIT Karnataka, India <a target="_blank" href="assets/img/fictaEditions/FICTA-2020_Vol_1.jpg">Vol 1,</a> <a target="_blank" href="assets/img/fictaEditions/FICTA-2020_Vol_2.jpg">Vol 2 </a></span>
+                    </div>
+                </div>
+                <div class="row mb-3 mx-0">
+                    <div class="col-4 p-0">
+                        <div class="date-card h-100 d-flex align-items-center justify-content-center"">
+                            <span class="t-mr-5">FICTA</span><span>2018</span>
+                        </div>
+                    </div>
+                    <div class="col-8 pr-0 d-flex align-items-center" style="border-bottom: 2px solid #234262;">
+                        <span>Duy Tan University, Da Nang, Vietnam <a target="_blank" href="assets/img/fictaEditions/FICTA-2018_Vol_1.jpg">Vol 1,</a> <a target="_blank" href="assets/img/fictaEditions/FICTA-2018_Vol_2.jpg">Vol 2 </a></span>
+                    </div>
+                </div>
+
+                <div class="row mb-3 mx-0">
+                    <div class="col-4 p-0">
+                        <div class="date-card h-100 d-flex align-items-center justify-content-center">
+                            <span  class="t-mr-5">FICTA</span><span>2017</span>
+                        </div>
+                    </div>
+                    <div class="col-8 pr-0 d-flex align-items-center" style="border-bottom: 2px solid #234262;">
+                        <span>KIIT University, Bhubaneswar, Odisha, India <a target="_blank" href="assets/img/fictaEditions/FICTA-2017_Vol_1.jpg">Vol 1,</a> <a target="_blank" href="assets/img/fictaEditions/FICTA-2017_Vol_2.jpg">Vol 2 </a></span>
+                    </div>
+                </div>
+
+                <div class="row mb-3 mx-0">
+                    <div class="col-4 p-0">
+                        <div class="date-card h-100 d-flex align-items-center justify-content-center">
+                            <span class="t-mr-5">FICTA</span><span>2016</span>
+                        </div>
+                    </div>
+                    <div class="col-8 pr-0 d-flex align-items-center" style="border-bottom: 2px solid #234262;">
+                        <span>KIIT University, Bhubaneswar, Odisha, India <a target="_blank" href="assets/img/fictaEditions/FICTA-2016_Vol_1.jpg">Vol 1,</a> <a target="_blank" href="assets/img/fictaEditions/FICTA-2016_Vol_2.jpg">Vol 2 </a></span>
+                    </div>
+                </div>
+
+
+                <div class="row mb-3 mx-0">
+                    <div class="col-4 p-0">
+                        <div class="date-card h-100 d-flex align-items-center justify-content-center"">
+                            <span class="t-mr-5">FICTA</span><span>2015</span>
+                        </div>
+                    </div>
+                    <div class="col-8 pr-0 d-flex align-items-center" style="border-bottom: 2px solid #234262;">
+                        <a target="_blank" href="assets/img/fictaEditions/FICTA-2015.jpg"><span>NIT Durgapur, West Bengal, India</span></a>
+                    </div>
+                </div>
+
+                <div class="row mb-3 mx-0">
+                    <div class="col-4 p-0">
+                        <div class="date-card h-100 d-flex align-items-center justify-content-center"">
+                            <span class="t-mr-5">FICTA</span><span>2014</span>
+                        </div>
+                    </div>
+                    <div class="col-8 pr-0 d-flex align-items-center" style="border-bottom: 2px solid #234262;">
+                        <span>BEC Bhubaneshwar, Odisha, India <a target="_blank" href="assets/img/fictaEditions/FICTA-2014_Vol_1.jpg"> Vol 1,</a><a target="_blank" href="assets/img/fictaEditions/FICTA-2014_Vol_2.jpg"> Vol 2 </a></span>
+                    </div>
+                </div>
+
+                <div class="row mb-3 mx-0">
+                    <div class="col-4 p-0">
+                        <div class="date-card h-100 d-flex align-items-center justify-content-center"">
+                            <span class="t-mr-5">FICTA</span><span>2013</span>
+                        </div>
+                    </div>
+                    <div class="col-8 pr-0 d-flex align-items-center" style="border-bottom: 2px solid #234262;">
+                        <a target="_blank" href="assets/img/fictaEditions/FICTA-2013.jpg"><span>BEC Bhubaneshwar, Odisha, India</span></a>
+                    </div>
+                </div>
+
+                <div class="row mb-3 mx-0">
+                    <div class="col-4 p-0">
+                        <div class="date-card h-100 d-flex align-items-center justify-content-center"">
+                            <span class="t-mr-5">FICTA</span><span>2012</span>
+                        </div>
+                    </div>
+                    <div class="col-8 pr-0 d-flex align-items-center" style="border-bottom: 2px solid #234262;">
+                        <a target="_blank" href="assets/img/fictaEditions/FICTA-2012.jpg"><span>BEC Bhubaneshwar, Odisha, India</span></a>
+                    </div>
+                </div>
+
+                <!-- <div class="row mb-3 mx-0">
+                    <div class="col-4 p-0">
+                        <div class="date-card h-100 d-flex align-items-center justify-content-center"">
+                            <span class="t-mr-5">FICTA</span><span>2013</span>
+                        </div>
+                    </div>
+                    <div class="col-8 pr-0 d-flex align-items-center" style="border-bottom: 2px solid #234262;">
+                        <a target="_blank" href="assets/img/fictaEditions/FICTA-2013.jpg"><span>BEC Bhubaneshwar, Odisha, India</span></a>
+                    </div>
+                </div>
+
+                <div class="row mb-3 mx-0">
+                    <div class="col-4 p-0">
+                        <div class="date-card h-100 d-flex align-items-center justify-content-center"">
+                            <span class="t-mr-5">FICTA</span><span>2012</span>
+                        </div>
+                    </div>
+                    <div class="col-8 pr-0 d-flex align-items-center" style="border-bottom: 2px solid #234262;">
+                        <a target="_blank" href="assets/img/fictaEditions/FICTA-2012.jpg"><span>BEC Bhubaneshwar, Odisha, India</span></a>
+                    </div>
+                </div> -->
+            </div>
+
+            <!-- <div class="col-12 col-md-4 col-lg-4 mb-xs-50">
+                <h2 class="mb-3">Previous Editions of FICTA</h2>
+
+                <div class="row mb-3 mx-0">
+                    <div class="col-4 p-0">
+                        <div class="date-card h-100 d-flex align-items-center justify-content-center"">
+                            <span class="t-mr-5">FICTA</span><span>2013</span>
+                        </div>
+                    </div>
+                    <div class="col-8 pr-0 d-flex align-items-center" style="border-bottom: 2px solid #234262;">
+                        <a target="_blank" href="assets/img/fictaEditions/FICTA-2013.jpg"><span>BEC Bhubaneshwar, Odisha, India</span></a>
+                    </div>
+                </div>
+
+                <div class="row mb-3 mx-0">
+                    <div class="col-4 p-0">
+                        <div class="date-card h-100 d-flex align-items-center justify-content-center"">
+                            <span class="t-mr-5">FICTA</span><span>2012</span>
+                        </div>
+                    </div>
+                    <div class="col-8 pr-0 d-flex align-items-center" style="border-bottom: 2px solid #234262;">
+                        <a target="_blank" href="assets/img/fictaEditions/FICTA-2012.jpg"><span>BEC Bhubaneshwar, Odisha, India</span></a>
+                    </div>
+                </div>
+            </div> -->
+        
+            <div class="col-12 col-md-6 col-lg-6 mb-xs-50">
+                <h2 class="mb-3">News & Updates</h2>
+                
+                <ul class="list-unstyled">
+                    <!-- <li class="mb-3">For Best Papers Result, <a target="_blank" href="https://ficta2020.nitk.ac.in/best_papers.html">Click here</a></li>
+                    <li class="mb-3">For FINAL Schedule, <a target="_blank" href="https://ficta2020.nitk.ac.in/resource/FICTA_2020_schedule_final.pdf">Click here</a></li>
+                    <li class="mb-3">For CRC Instructions, <a target="_blank" href="https://ficta2020.nitk.ac.in/crc.html">Click here</a></li>
+                    <li class="mb-3">Co-located Special Sessions, <a target="_blank" href="https://ficta2020.nitk.ac.in/call_for_sessions.html">Check page <span class="text-danger">(Closed)</span></a></li> -->
+                    <!-- <li><a target="_blank" href="https://scholar.google.co.in/citations?hl=en&view_op=search_venues&vq=FICTA&btnG=">FICTA Google Scholar Metrics</a></li> -->
+                    <!-- <li><a href="call-for-sessions">Call for Special Session Proposals</a></li> -->
+                    <li class="mb-3">&#9734; 22 June 2021: Conference Program Schedule  released--check the google meet links to different sessions and tracks during the conference.</li>
+                    <li class="mb-3">&#9734; 21 June 2021: Final CRC Submission extended upto 30 June 2021.</li>
+                    <li class="mb-3">&#9734; 20 June 2021: Schedule of Parallel Tracks for Online Technical Paper Presentations released.</li>
+                    <li class="mb-3">&#9734; 14 June 2021: Springer Sponsored Best Paper Awards for Technical Paper Presentations during the conference.</li>
+                    <li class="mb-3">&#9734; 06 June 2021: Release of Guidelines for Submission of Camera Ready Copy (CRC).</li>
+                    <li class="mb-3">&#9734; 04 June 2021: Notification of Decisions completed now for all papers in main track (Easy Chair) as well as Special Sessions.</li>
+                    <li class="mb-3">&#9734; 31 May 2021: Phase-II:- Notification of Decisions released and paper registrations for this phase to <strong style="color: red;">close</strong> on 09 June 2021.</li>
+                    <li class="mb-3">&#9734; 15 May 2021: Phase-I:- Notification of Decisions released and paper registrations for this phase started.</li>
+                    <li class="mb-3">&#9734; 26 April 2021: We are aware of severe travel restrictions, travel advisories, lock downs in many states of India and across the globe due to pandemic. If the situation prevails, the conference will be hosted in virtual mode through online platforms like Zoom or similar.</li>
+                    <li class="mb-3">&#9734; 02 April 2021: Full Paper Submissions now closed.</li>
+                    <li class="mb-3">&#9734; 18 March 2021: Proceedings of FICTA-2021 will be published in  <a target="_blank" href="https://www.springer.com/series/8767">Springer-Smart Innovation, Systems and Technologies (SIST)</a> Series  indexed in SCOPUS <strong style="color: red;">[Confirmed]</strong></li>
+                    <li class="mb-3">&#9734; 02 March 2021: Deadline for Full Paper submission extended to 01 April 2021.</li>
+                    <li class="mb-3">&#9734; 20 Feb 2021: Call for Special Session Proposals is closed now.</li>
+                    <li class="mb-3">&#9734; 13 Jan 2021: Previous editions of FICTA Conf (published in DBLP indexed Springer AISC series) are available at a glance. </li>
+                    <li class="mb-3">&#9734; 06 Jan 2021: <a href="call-for-reviewers.html">Call for Reviewers/TPC Members is now open.</a> </li>
+                    <li class="mb-3">&#9734; 06 Jan 2021: <a href="call-for-papers.html">Call for Papers is now released. </a></li>
+                    <li class="mb-3">&#9734; 05 Jan 2021: <a href="call-for-sessions.html">Call for Special Session Proposals is now open. </a></li>
+                    <li class="mb-3">&#9734; 01 Jan 2021: <a target="_blank" href="https://scholar.google.co.in/citations?hl=en&view_op=search_venues&vq=FICTA&btnG=">FICTA Google Scholar Metrics may be viewed here</a></li>
+
+                </ul>
+
+                <!-- <h2 class="mb-3">Special Sessions</h2>
+
+                <ul class="list-unstyled"> -->
+                <!-- <li class="mb-3">&#9734; <a href="call-for-sessions">Call for Special Session Proposals</a></li> -->
+                
+                <!-- </ul> -->
+            </div>
+
+        </div> 
+
+        <div class="row">   
+             <div class="col-12 col-md-4 col-lg-4">
+                <h2 class="mb-3">Special Sessions</h2>
+
+                <ul class="list-unstyled">
+                <li class="mb-3">&#9734; Special Session #1 <a href="assets/doc/SS_1_Blockchain_Sandeep&#32;Panda.pdf" type="application/pdf" download>"Blockchain 4.0--I & IOT"</a></li>
+                <li class="mb-3">&#9734; Special Session #2 <a href="assets/doc/SS_2_AI&#32;for&#32;Cyber&#32;Security_Vellaingiri.pdf" type="application/pdf" download>"Advanced AI for Cyber Security"</a></li>
+                <li class="mb-3">&#9734; Special Session #3 <a href="assets/doc/SS_3_ETCDL_Janakiramia.pdf" type="application/pdf" download>“Cognitive Computing and Deep Learning”</a></li>
+                <li class="mb-3">&#9734; Special Session #4 <a href="assets/doc/SS_4_Dats&#32;Sc&#32;and&#32;ML_Govinda.pdf" type="application/pdf" download>“Data Sciences and Machine Learning”</a></li>
+                <li class="mb-3">&#9734; Special Session #5 <a href="assets/doc/SS_5_Continuos&#32;Deep&#32;Analytics_Sowmya.pdf" type="application/pdf" download>“Deep Analytics for Biomedical and Health Informatics”</a></li> 
+                <li class="mb-3">&#9734; Special Session #6 <a href="assets/doc/SS_6_Robust&#32;Models&#32;to&#32;Enhance&#32;the&#32;Decision&#32;Making_Minakhi.pdf" type="application/pdf" download>“Innovative and Robust Models to Enhance the Decision Making”</a></li> 
+                <li class="mb-3">&#9734; Special Session #7 <a href="assets/doc/SS_7_Computational&#32;Intelligence_Sudhanshu.pdf" type="application/pdf" download>“Computational Intelligence”</a></li>
+                </ul>
+             </div>
+
+             <div class="col-12 col-md-4 col-lg-4">
+                <h2 class="mb-3">Special Sessions</h2>
+
+                <ul class="list-unstyled">
+                <li class="mb-3">&#9734; Special Session #8 <a href="assets/doc/SS_8_ML&#32;and&#32;IoT&#32;in&#32;Agriculture_Pabira.pdf" type="application/pdf" download>“Application of Machine Learning and IoT in Agriculture”</a></li>
+                <li class="mb-3">&#9734; Special Session #9 <a href="assets/doc/SS_9_Bio-Inspired&#32;techniques&#32;_Sameer.pdf" type="application/pdf" download>“Bio-Inspired techniques for Industrial Applications”</a></li>
+                <li class="mb-3">&#9734; Special Session #10 <a href="assets/doc/SS_10_Optimization&#32;Methods&#32;in&#32;Multimedia_Abhishek.pdf" type="application/pdf" download>“Optimization Methods in Multimedia Systems”</a></li>
+                <li class="mb-3">&#9734; Special Session #11 <a href="assets/doc/SS_11_Suatainable&#32;Development_Pawan&#32;Whig.pdf" type="application/pdf" download>“Sustainable Development Using AI and IoT”</a></li>
+                <li class="mb-3">&#9734; Special Session #12 <a href="assets/doc/SS_12_Intelligence&#32;in&#32;Networking_Anita.pdf" type="application/pdf" download>“Intelligence in Networking and Wireless Communications”</a></li>
+                <li class="mb-3">&#9734; Special Session #13 <a href="assets/doc/SS_13_Industry&#32;4.0_Saumya.pdf" type="application/pdf" download>“Industry 4.0---CI, IoT & ML”</a></li>
+                <li class="mb-3">&#9734; Special Session #14 <a href="assets/doc/SS_14_Security&#32;Perspectives&#32;of&#32;WSN_Shalini.pdf" type="application/pdf" download>“Security Perspectives of WSN”</a></li>
+                </ul>
+             </div>
+
+             <div class="col-12 col-md-4 col-lg-4">
+                <h2 class="mb-3">Special Sessions</h2>
+
+                <ul class="list-unstyled">
+                
+                <li class="mb-3">&#9734; Special Session #15 <a href="assets/doc/SS_15_Cloud,&#32;Fog&#32;and&#32;Edge&#32;Computing_Rajeshwari.pdf" type="application/pdf" download>“Cloud, Fog and Edge Computing”</a></li>
+                <li class="mb-3">&#9734; Special Session #16 <a href="assets/doc/SS_16_Security&#32;Solutions&#32;in&#32;Different&#32;Technologies&#32;(SSDT).pdf" type="application/pdf" download>“Security Solutions in Different Technologies”</a></li>
+                <li class="mb-3">&#9734; Special Session #17 <a href="assets/doc/SS_17_Modern&#32;Soft&#32;Computing.pdf" type="application/pdf" download>“Modern Soft-Computing”</a></li>
+                <li class="mb-3">&#9734; Special Session #18 <a href="assets/doc/SS_18_AI&#32;&amp;&#32;Geospatial&#32;Analytics.pdf" type="application/pdf" download>“AI and Geospatial Analytics”</a></li>
+                <li class="mb-3">&#9734; Special Session #19 <a href="assets/doc/SS_19_Data&#32;Analysis&#32;of&#32;Expert&#32;Systems.pdf" type="application/pdf" download>“Data Analysis of Expert System based Models”</a></li>
+                <li class="mb-3">&#9734; Special Session #20 <a href="assets/doc/SS_20_Fuzzy&#32;Logic&#32;and&#32;Metaheuristics.pdf" type="application/pdf" download>“Fuzzy Logic and Metaheuristics”</a></li>
+                <li class="mb-3">&#9734; Special Session #21 <a href="assets/doc/SS_21_Bio&#32;Inspired&#32;Techniques&#32;in&#32;Signal&#32;Proc.pdf" type="application/pdf" download>"Bio Inspired Techniques in Signal Proc.”</a></li>
+
+                </ul>
+             </div>
+        </div>
+    </div>
+</section>
+<!-- News Update Section  -->
+
+<!-- About Section  -->
+<section class="about-section">
+    <div class="about-section-inner pt-xs-50 pb-xs-50">
+        <div class="row m-0">
+            <div class="container py-50 py-xs-none">
+                <div class="col-12 col-md-8 col-lg-8">
+                    <h1 class="tag-underline">About FICTA 2021</h1>
+                    <p>
+                    After the grand success of past Eight editions of FICTA Conference under Springer AISC series, it is a matter of pleasure and pride to announce the 
+                    <span class="font-weight-bold">Ninth edition of International Conference on Frontiers of Intelligent Computing: Theory and Applications, FICTA 2021</span>    
+                    , being jointly organised by National Institute of Technology Mizoram, during June 25-26, 2021
+                     <!-- <a target="_blank" href="https://som.nitk.ac.in/">School of Management</a> and the <a target="_blank" href="https://infotech.nitk.ac.in/">Department of Information Technology</a>, <a target="_blank" href="https://www.nitk.ac.in/"> National Institute of Technology Karnataka, Mizoram </a> from January 4-5, 2020. -->
+                    </p>
+                    
+                    <h5>The 2021 International Conference on Frontiers of Intelligent Computing: Theory and Applications (FICTA)</h5>
+                    <p>aims to bring together researchers, scientists, engineers, students and practitioners to exchange and share their theories methodologies, new ideas, experiences, application in all areas of intelligent computing theories, methodologies and its applications. The theme of FICTA conference series focuses on the domain of intelligent computing theories and the application to Computer and Management sciences. All accepted and registered papers under this conference will be published in <a target="_blank" href="https://www.springer.com/series/8767">Springer-Smart Innovation, Systems and Technologies (SIST) Series</a> (confirmed)  Now indexed by SCOPUS, EI Compendex, INSPEC, WTI Frankfurt eG, zbMATH, Japanese Science and Technology Agency (JST), SCImago, DBLP. All books published in the series are submitted for consideration in the Web of Science.</p>
+                </div>
+                <!-- <div class="col-12 col-md-4 col-lg-4 d-flex justify-content-center align-items-center">
+                    <img src="assets/img/about1.jpg" alt="" class="w-100">
+                </div> -->
+            </div>
+        </div>
+    </div>
+</section>
+<section class="about-nitm-section">
+    <div class="container py-50">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12">
+                <h1 class="tag-underline">About NIT Mizoram</h1>
+                <p>The Ministry of Human Resources Development, Govt. of India vide its order no. F. 23-13-2009-TS-III Dated 30th of Oct. 2009 and 3rd March 2010, had decided to set up ten new NITs. In view of the above National Institute of Technology (NIT) Mizoram was started in the year 2010 in the state of Mizoram with an objective to impart education, research & training leading to B.Tech, M.Tech & PhD. degrees. This institute has been declared as an Institute of National Importance by an Act of Parliament. Here the students are admitted through All India Entrance Exam- Joint Entrance Exam (JEE Main). The Institute has five engineering branches – Civil Engineering, Computer Science & Engineering, Electrical & Electronics Engineering, Electronics & Communication Engineering and Mechanical Engineering. In order to support these engineering branches, there is the department of Basic Sciences & Humanities.</p>
+                <p>NIT Mizoram is an Institute situated in the scenic beauty of Mizoram, wrapped between clouds and mountain rocks, which adds to its beauty. Being amongst the most educated states of our country with a literacy rate of 91%, it beholds a very peaceful and calm environment suitable for studies. The Institute, to cope with the present competitive needs, comprises of laboratories with the latest equipment and installed with best and latest softwares which facilitate in pursuing both academic and research objectives. Each department has its own smart classroom and the institute has a full-fledged central library with myriad of text and reference books and e-books. The institute has an Innovation cell and it fosters an environment of Industry-Institute collaboration wherein students are encouraged and supported to undergo multiple internships/trainings in various industries relevant to their disciplines and also aligned to the present job market of India.</p>
+                <p>For more information about NIT Mizoram please visit the site: <a target="_blank" href="https://www.nitmz.ac.in">www.nitmz.ac.in</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About Section  -->
+
+    <footer class="footer-section py-3 bg-light">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12 col-md-6 text-left text-xs-center">
+                    <span>Copyright © FICTA 2021, <a href="https://www.nitmz.ac.in/" target="_blank">NIT Mizoram</a></span>
+                </div>
+                <div class="col-12 col-md-6 text-right text-xs-center ">
+                    <span>
+                        Designed & maintained by
+                        <a class="text-muted" href="index.html#" onClick="javascript: window.open('https://www.technowebs.in', '_blank'); return false;">
+                            <svg width="120" height="12" version="1.1" viewBox="0 0 26.987 3.175" >
+                            <g transform="translate(0 -293.82)"><g transform="matrix(.24499 0 0 .24499 .003264 224.22)"><g fill="#6c757d" stroke-width=".26458" aria-label="TECHNOWEBS">
+                            <path d="m6.7324 296.75v-2.7432h-1.1176q-1.3377 0-1.778-0.508-0.3556-0.4064-0.3556-1.524v-2.6924h-3.3867v4.7752q0 1.2361 0.8636 1.9304 0.94827 0.762 2.7432 0.762zm-6.6379-12.243v2.7771h8.128l-0.033867-2.7771z"></path>
+                            <path d="m9.5203 289.28v7.4676h8.1619v-2.7263h-4.7752v-2.0489h4.7752v-2.6924zm0-4.7752v2.7432h8.1788v-2.7432z"></path>
+                            <path d="m27.471 284.53q-4.3688 0-6.3839 1.7949-1.7103 1.524-1.7103 4.3011 0 2.8956 1.6595 4.3857 1.9812 1.778 6.4347 1.778v-2.7263q-2.3537 0-3.2343-0.4064-1.5409-0.7112-1.5409-3.0141 0-2.2183 1.5071-2.9295 0.9144-0.42333 3.2681-0.42333z"></path>
+                            <path d="m28.636 284.51v12.243h3.3528v-4.7921h4.7413v-2.6755h-4.7413v-4.7752z"></path>
+                            <path d="m37.93 284.51v12.243h3.3867v-9.4996h1.1007q1.3716 0 1.8119 0.49107 0.3556 0.38946 0.3556 1.524v7.4845h3.3697v-9.4657q0-1.2361-0.88053-1.9812-0.94827-0.79587-2.7093-0.79587z"></path>
+                            <path d="m55.856 287.29q1.2531 0 2.1167 1.016 0.88053 0.99906 0.88053 2.4215t-0.88053 2.4384q-0.8636 0.99907-2.1167 0.99907-1.2361 0-2.1167-1.016-0.88053-1.016-0.88053-2.4215 0-1.4393 0.88053-2.4384 0.88053-0.99906 2.1167-0.99906zm0.11853-2.9464q-2.6924 0-4.6059 1.8457-1.8965 1.8288-1.8965 4.4365 0 2.5739 1.9135 4.4196 1.9135 1.8457 4.5889 1.8457 2.6924 0 4.5889-1.8288 1.8965-1.8288 1.8965-4.4365 0-2.5908-1.9135-4.4365-1.8965-1.8457-4.572-1.8457z"></path>
+                            <path d="m72.356 284.56-1.9812 3.3867 4.0471 8.7715 5.0969-12.158h-3.0988l-2.0828 4.7244zm-8.3312-0.0508 5.5711 12.277 1.9981-3.1157-4.2503-9.1609z"></path>
+                            <path d="m81.421 289.28v7.4676h8.1619v-2.7263h-4.7752v-2.0489h4.7752v-2.6924zm0-4.7752v2.7432h8.1788v-2.7432z"></path>
+                            <path d="m91.243 284.49v2.7601l3.3867-0.0169q0.762 0 1.3547 0.3048 0.6096 0.3048 0.6096 0.79586-0.0508 0.47414-0.7112 0.72814-0.52493 0.2032-1.2531 0.2032l-3.3867 0.0169v2.6585h3.4205q0.82973 0 1.4224 0.3048 0.59267 0.3048 0.54187 0.8128 0 0.47414-0.57573 0.7112-0.57573 0.23707-1.4224 0.23707l-3.3867 0.0169v2.7263h3.4544q3.2343 0 4.6905-1.0837 1.1515-0.84667 1.1515-2.3537 0-0.9652-0.4572-1.6087-0.44027-0.64347-1.3547-1.0837 0.88053-0.508 1.1853-1.0668 0.3048-0.5588 0.3048-1.6425 0-1.524-0.99907-2.3368-1.3377-1.0837-4.5889-1.0837z"></path>
+                            <path d="m102.59 284.51v0.77893q0 0.84667 0.2032 1.3547 0.1016 0.23707 0.57574 0.98213l2.7771 3.6576q0.69427 0.89747 0.69427 1.5071 0 0.16933-0.0677 0.49107-0.0677 0.32173-0.37254 0.5588-0.3048 0.22013-1.0837 0.22013h-3.4205v2.6924h3.3528q1.8119 0 2.4892-0.18627 0.54186-0.27093 0.79586-0.37253 0.57574-0.27093 0.93134-0.762 0.5588-0.77893 0.5588-1.9812 0-1.1684-0.38947-2.0659-0.2032-0.47413-0.59267-0.98213l-3.048-4.3857q-0.18626-0.22014-0.254-0.6096-0.0677-0.38947-0.0677-0.89747z"></path></g></g></g>
+                            </svg>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Script  -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js'></script>
 </body>
 </html>

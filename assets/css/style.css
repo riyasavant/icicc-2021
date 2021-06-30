@@ -1,0 +1,274 @@
+/* Global  */
+
+body {
+    font-size: 1rem;
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 300;
+    color: #234262;
+}
+
+
+/* .title-tag */
+
+
+/*
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,300;1,500&display=swap" rel="stylesheet">
+*/
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+a,
+a:hover {
+    color: none!important;
+    text-decoration: none!important;
+}
+
+.rounded-lg {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.avatar {
+    border-radius: 100%;
+    width: 200px!important;
+    height: 200px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.py-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.t-mr-5 {
+    margin-right: 5px !important;
+}
+
+
+/* Header  */
+
+.top-header {
+    padding: 15px 0;
+    /* background: linear-gradient(90deg, #f9f9f9d6, #ffffffcf), url(../../assets/img/header-bg.jpg); */
+}
+
+.header-tag {
+    font-size: 1.35rem;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #234262;
+    margin: 0;
+}
+
+.header-link {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #f14242;
+    text-align: center;
+}
+
+.my-nav {
+    background-color: #234262!important;
+}
+
+.navbar-brand{
+    color: #FFF !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #ffffff;
+    border-bottom: 1px solid #fff;
+    /* padding: 0; */
+}
+
+.active>.dropdown .nav-link {
+    color: #ffffff;
+    border-bottom: 1px solid #fff;
+    /* padding: 0; */
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+
+
+/* Marquee */
+
+.marquee-section {
+    padding: 10px 0;
+    border-bottom: 1px solid #efefef;
+}
+
+.marquee-text {
+    font-size: 1rem;
+    color: #fb1c1c;
+}
+
+
+/* About Us  */
+
+.title-tag {
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 500;
+}
+
+
+/* News update  */
+
+.date-card {
+    width: 100%;
+    background: #234262;
+    color: #fff;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+.ficta-text {
+    font-size: 10px;
+}
+
+.about-section {
+    /* background: linear-gradient(0deg,#00000061,#00000061), url(../img/about-bg.jpg);
+    background-size: cover; */
+    color: #FFF;
+    position: relative;
+}
+
+.about-section::before {
+    position: absolute;
+    background-image: url(../img/about-bg.jpg);
+    left: 0;
+    content: '';
+    width: 70%;
+    top: 0;
+    bottom: 0;
+    z-index: -2;
+    background-size: cover;
+    background-position: center center;
+}
+
+.about-section-inner::before {
+    position: absolute;
+    right: 0;
+    width: 30%;
+    top: 0;
+    bottom: 0;
+    content: '';
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../img/about-right.jpg);
+}
+
+.about-section::after {
+    position: absolute;
+    background: #000;
+    left: 0;
+    content: '';
+    width: 70%;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: rgba(23, 47, 72, .871);
+}
+
+@media only screen and (max-width: 600px) {
+    /* Custom */
+    .d-xs-none {
+        display: none!important;
+    }
+    .pt-xs-50 {
+        padding-top: 50px;
+    }
+    .pb-xs-50 {
+        padding-bottom: 50px;
+    }
+    .mt-xs-50 {
+        margin-top: 50px;
+    }
+    .mb-xs-50 {
+        margin-bottom: 50px;
+    }
+    .py-xs-none {
+        padding: 0;
+    }
+    .text-xs-center {
+        text-align: center!important;
+    }
+    .flex-xs-column-reverse {
+        flex-flow: column-reverse;
+    }
+    .about-section::before {
+        width: 100%;
+    }
+    .about-section-inner::before {
+        width: 0%;
+    }
+    .about-section::after {
+        width: 100%;
+    }
+}
