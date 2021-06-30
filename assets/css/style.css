@@ -35,6 +35,11 @@ a:hover {
     text-decoration: none!important;
 }
 
+.main-logo {
+    width: 150px;
+    height: 130px;
+}
+
 .rounded-lg {
     border-radius: 15px;
     -webkit-border-radius: 15px;
@@ -55,6 +60,10 @@ a:hover {
 
 .pt-50 {
     padding-top: 50px;
+}
+
+.news-pb-100 {
+    padding-bottom: 100px;
 }
 
 .pb-100 {
@@ -236,6 +245,25 @@ a:hover {
     background-color: rgba(23, 47, 72, .871);
 }
 
+@media only screen and (max-width: 1000px) {
+    .about-section-inner::before {
+        width: 0%;
+    }
+    .about-section::after {
+        width: 100%;
+    }
+    .about-section::before {
+        width: 100%;
+    }
+    .news-pb-100 {
+        padding-bottom: 60px;
+    }
+    .main-logo {
+        width: 120px;
+        height: 110px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     /* Custom */
     .d-xs-none {
@@ -265,13 +293,11 @@ a:hover {
     .flex-xs-column-reverse {
         flex-flow: column-reverse;
     }
-    .about-section::before {
-        width: 100%;
+    .news-pb-100 {
+        padding-bottom: 50px;
     }
-    .about-section-inner::before {
-        width: 0%;
-    }
-    .about-section::after {
-        width: 100%;
+    .main-logo {
+        width: 90px;
+        height: 80px;
     }
 }
