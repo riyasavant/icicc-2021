@@ -247,6 +247,9 @@ a:hover {
     .pb-xs-50 {
         padding-bottom: 50px;
     }
+    .pb-xs-100 {
+        padding-bottom: 100px;
+    }
     .mt-xs-50 {
         margin-top: 50px;
     }
