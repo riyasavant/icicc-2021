@@ -206,6 +206,7 @@ a:hover {
     background-size: cover; */
     color: #FFF;
     position: relative;
+    padding: 50px;
 }
 
 .about-section::before {
@@ -213,7 +214,7 @@ a:hover {
     background-image: url(../img/about-bg.jpg);
     left: 0;
     content: '';
-    width: 70%;
+    width: 100%;
     top: 0;
     bottom: 0;
     z-index: -2;
@@ -221,7 +222,7 @@ a:hover {
     background-position: center center;
 }
 
-.about-section-inner::before {
+/* .about-section-inner::before {
     position: absolute;
     right: 0;
     width: 30%;
@@ -231,14 +232,14 @@ a:hover {
     background-size: cover;
     background-position: center center;
     background-image: url(../img/try2.png);
-}
+} */
 
 .about-section::after {
     position: absolute;
     background: #000;
     left: 0;
     content: '';
-    width: 70%;
+    width: 100%;
     top: 0;
     bottom: 0;
     z-index: -1;
@@ -271,19 +272,17 @@ a:hover {
     margin-top: 50px;
 }
 
+.flex-prev {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about {
+    overflow-x: hidden;
+}
+
 @media only screen and (max-width: 1000px) {
-    .about-section-inner::before {
-        width: 0%;
-    }
-    .about-section::after {
-        width: 100%;
-    }
-    .about-section::before {
-        width: 100%;
-    }
-    /* .news-pb-100 {
-        padding-bottom: 60px;
-    } */
     .main-logo {
         width: 120px;
         height: 110px;
@@ -301,7 +300,7 @@ a:hover {
 
 @media only screen and (max-width: 767px) {
     .news-pb-100 {
-        padding-top: 30px;
+        padding-top: 0px;
     }
 }
 
@@ -340,6 +339,11 @@ a:hover {
     .main-logo {
         width: 90px;
         height: 80px;
+    }
+
+    .padding-xs {
+        padding-left: 50px;
+        padding-right: 50px;
     }
 }
 
