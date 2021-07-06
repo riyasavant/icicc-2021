@@ -206,7 +206,7 @@ a:hover {
     background-size: cover; */
     color: #FFF;
     position: relative;
-    padding: 50px;
+    padding: 30px 50px;
 }
 
 .about-section::before {
@@ -342,8 +342,8 @@ a:hover {
     }
 
     .padding-xs {
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
 
