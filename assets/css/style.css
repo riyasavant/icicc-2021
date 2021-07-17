@@ -35,9 +35,15 @@ a:hover {
     text-decoration: none!important;
 }
 
+.header-logos {
+    display: flex;
+    justify-content: center;
+}
+
 .main-logo {
-    width: 150px;
-    height: 130px;
+    width: 100px;
+    height: 90px;
+    padding-left: 10px;
 }
 
 .rounded-lg {
@@ -284,8 +290,8 @@ a:hover {
 
 @media only screen and (max-width: 1000px) {
     .main-logo {
-        width: 120px;
-        height: 110px;
+        width: 90px;
+        height: 70px;
     }
     .dsu-img {
         display: none;
@@ -337,8 +343,8 @@ a:hover {
         padding-bottom: 50px;
     } */
     .main-logo {
-        width: 90px;
-        height: 80px;
+        width: 80px;
+        height: 60px;
     }
 
     .padding-xs {
