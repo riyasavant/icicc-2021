@@ -37,13 +37,18 @@ a:hover {
 
 .header-logos {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
 .main-logo {
-    width: 100px;
-    height: 90px;
+    width: 90px;
+    height: 80px;
     padding-left: 10px;
+}
+
+.dsu-logo {
+    margin-bottom: 10px;
 }
 
 .rounded-lg {
@@ -308,6 +313,12 @@ a:hover {
     .news-pb-100 {
         padding-top: 0px;
     }
+    .header-logos {
+        flex-direction: row;
+    }
+    .dsu-logo {
+        margin-bottom: 0;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -338,13 +349,6 @@ a:hover {
     }
     .flex-xs-column-reverse {
         flex-flow: column-reverse;
-    }
-    /* .news-pb-100 {
-        padding-bottom: 50px;
-    } */
-    .main-logo {
-        width: 80px;
-        height: 60px;
     }
 
     .padding-xs {
