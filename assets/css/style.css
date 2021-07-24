@@ -105,6 +105,10 @@ a:hover {
     margin-bottom: 50px;
 }
 
+.approval {
+    margin-bottom: 0px;
+}
+
 .py-50 {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -318,6 +322,9 @@ a:hover {
     }
     .dsu-logo {
         margin-bottom: 0;
+    }
+    .approval {
+        margin-bottom: 20px;
     }
 }
 
