@@ -297,6 +297,15 @@ a:hover {
     overflow-x: hidden;
 }
 
+.s1 {
+    margin-right: 20px;
+}
+
+.s2 {
+    margin-left: 20px;
+}
+
+
 @media only screen and (max-width: 1000px) {
     .main-logo {
         width: 90px;
@@ -361,6 +370,19 @@ a:hover {
     .padding-xs {
         padding-left: 30px;
         padding-right: 30px;
+    }
+
+    .link-style {
+        display: block;
+    }
+
+    .s1 {
+        margin-right: 0;
+    }
+
+    .s2 {
+        margin-top: 10px;
+        margin-left: 0;
     }
 }
 
